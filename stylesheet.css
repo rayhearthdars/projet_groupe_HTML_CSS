@@ -1,0 +1,27 @@
+main {
+    color: #c7a462;
+    font-size:175%;
+}
+
+#banner{
+    background-image: url(fond2.jpg);
+}
+
+.intro{
+    display:flex;
+    justify-content: center;
+    font-size:310%;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.contact{
+    font-size: 250%;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.presentation{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15%;
+}
+
