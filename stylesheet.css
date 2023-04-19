@@ -1,131 +1,124 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-  
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    background: linear-gradient(1deg, #1c364a, rgb(116, 116, 185));
-    transition: .2s linear;
- 
-  }
-  .box {
-    
-    justify-content: center;   
-    margin:50px;
- 
-    box-shadow: 0 5px 10px black;
-    background: white;
-    border-radius: 5px;
-    
-   
-    
-  }
-   img{
-    width:  300px;
-    height: 200px;
-    padding: 10px 10px;
-    align-items: center;
-   
-   }
-   .button-container {
-    width: 100%;
-   margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  button {
-    background: white;
-    border: solid 2px black;
-    font-size: 1rem;
-    font-family:  'Share Tech', sans-serif;
-  }
-  .button-effect {
-    font-size: 2rem;
-    background: #1c364a;
-    color: hsl(190deg, 10%, 95%);
-    box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, .2);
-    
-    
-    --dur: .10s;
-    --delay: .10s;
-    --radius: 16px;
-    
-    transition:
-      border-top-left-radius var(--dur) var(--delay) ease-out,
-      border-top-right-radius var(--dur)  var(--delay) ease-out,
-      border-bottom-right-radius var(--dur)  var(--delay) ease-out,
-      border-bottom-left-radius var(--dur)  var(--delay) ease-out,
-      box-shadow var(--dur) ease-out,
-      transform var(--dur) ease-out,
-      background var(--dur) steps(4, jump-end);
-  }
-  
-  .button-effect:hover,
-  .button-effect:focus {
-    box-shadow: 0 4px 8px black;
-    transform: translateY(-4px);
-    background:rgb(116, 116, 185);
-    border-top-left-radius: var(--radius);
-    border-top-right-radius: var(--radius);
-    border-bottom-left-radius: var(--radius);
-    border-bottom-right-radius: var(--radius);
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(1deg, #1c364a, rgb(116, 116, 185));
+  transition: 0.2s linear;
+}
 
+.box {
+  justify-content: center;
+  margin: 50px;
+
+  box-shadow: 0 5px 10px black;
+  background: white;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  padding: 10px 10px;
+  align-items: center;
+}
+
+.button-container {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: white;
+  border: solid 2px black;
+  font-size: 1rem;
+  font-family: "Share Tech", sans-serif;
+}
+
+.button-effect {
+  font-size: 2rem;
+  background: #1c364a;
+  color: hsl(190deg, 10%, 95%);
+  box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
+
+  --dur: 0.1s;
+  --delay: 0.1s;
+  --radius: 16px;
+
+  transition: border-top-left-radius var(--dur) var(--delay) ease-out,
+    border-top-right-radius var(--dur) var(--delay) ease-out,
+    border-bottom-right-radius var(--dur) var(--delay) ease-out,
+    border-bottom-left-radius var(--dur) var(--delay) ease-out,
+    box-shadow var(--dur) ease-out, transform var(--dur) ease-out,
+    background var(--dur) steps(4, jump-end);
+}
+
+.button-effect:hover,
+.button-effect:focus {
+  box-shadow: 0 4px 8px black;
+  transform: translateY(-4px);
+  background: rgb(116, 116, 185);
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
 
 #contact {
-    background-color: #1c364a;
-    width: 100%;
-    padding: 1rem;
+  background-color: #1c364a;
+  width: 100%;
+  padding: 1rem;
 }
 
 #contact h2 {
-    font-family: 'Share Tech', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 400;
-    color: white;
-    padding-bottom: 2rem;
+  font-family: "Share Tech", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 2rem;
 }
 
 #contact_form {
-    display: table;
-    margin: 0 auto;
-    color: white;
+  display: table;
+  margin: 0 auto;
+  color: white;
 }
-#contact_form .center{
-    display: table-row;
+
+#contact_form .center {
+  display: table-row;
 }
 
 #contact_form label {
-    display: table-cell;
-    padding: 1rem 5rem;
-    font-family: 'Share Tech', sans-serif;
-    font-size: 1.5rem;
+  display: table-cell;
+  padding: 1rem 5rem;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.5rem;
 }
 
 #contact_form .text {
-    vertical-align: top;
-    display: table-cell;
-    width: 40rem;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 5px;
+  vertical-align: top;
+  display: table-cell;
+  width: 40rem;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
 #contact_form .textHeight {
-    height: 2rem;
+  height: 2rem;
 }
 
 #contact_form input[type="submit"] {
-    margin: 1rem auto;
-    width: 100%;
-    height: 3rem;
-    border: 3px solid white;
-    border-radius: 5px;
+  margin: 1rem auto;
+  width: 100%;
+  height: 3rem;
+  border: 3px solid white;
+  border-radius: 5px;
 }
