@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--  font family share tech -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Syne+Mono&display=swap" rel="stylesheet"> 
+    
 
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
 
     <title>Kotech</title>
+   
 </head>
 <body>
     <header>
@@ -36,24 +39,91 @@
 
         </article>
         <article id="cards">
-
+            <div class="container">
+               
+                <div class="box">
+                    <img src="ordinateur_chuwi.jpg" alt="ordinateur_chuwi">
+                     
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+                
+                <div class="box">
+                    <img src="ordinateur1.jpg" alt="ordinateur1">
+                  
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+                
+                <div class="box">
+                    <img src="tablette1.jpg" alt="tablette1">
+                  
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+               
+                <div class="box">
+                    <img src="tablette2.jpg" alt="tablette2">
+                  
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+                
+                <div class="box">
+                    <img src="telephone1.jpg" alt="telephone">
+                
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+                
+                <div class="box">
+                    <img src="telephone2.jpg" alt="telephone2">
+                  
+                    <div class="button-container">
+                        <button class="button-effect">En savoir plus</button>
+                      </div>
+                </div>
+                
         </article>
         <article id="contact">
-            <h2 class="contact">Contactez-nous</h2>  
-            <form>
-                            <label for="nom">Nom</label>
-                            <input type="text" id="nom" name="nom" placeholder="Doe">
-                            <br>
-                            <label for="prenom">Prénom</label>
-                            <input type="text" id="prenom" name="prenom" placeholder="John">
-                            <br>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
-                            <br>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="10" cols="50" placeholder="Votre message..."></textarea>
-                            <br>
-                        </form>
+
+            <h2>Contactez-nous</h2>  
+            <form id="contact_form">
+            <div class="center">
+                <div>
+                    <label for="nom">Nom</label>
+                    <input class="text textHeight" type="text" id="nom" name="nom" placeholder="Doe">
+                </div>
+                
+                <br>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input class="text textHeight" type="text" id="prenom" name="prenom" placeholder="John">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input class="text textHeight" type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+                </div>
+
+                <br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea class="text" id="message" name="message" rows="20" cols="100" placeholder="Votre message..."></textarea>
+                </div>
+            </div>
+                <br>
+                <div>
+                    <input type="submit" name="submit" id="submit_contact_form" value="submit">
+                </div>
+
+                
+            </form>
         </article>
     </main>
     <footer>
