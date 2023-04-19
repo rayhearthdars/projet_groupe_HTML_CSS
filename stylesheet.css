@@ -5,9 +5,21 @@
 	padding: 2vh;
 	height:10vh;
 	text-align:center;
-	background-color: #4989bb;
-	filter: brightness(125%);
+	background-color: white;
 }
+
+nav a{
+	text-decoration: none;
+	color: #1c364a;
+}
+
+nav a:hover{
+	filter: brightness(200%);
+}
+
+a:visited {
+	color: purple;
+  }
 
 header
 {
