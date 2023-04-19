@@ -5,6 +5,7 @@ main {
 
 #banner{
     background-image: url(fond2.jpg);
+    height: 750px;
 }
 
 .intro{
@@ -12,6 +13,8 @@ main {
     justify-content: center;
     font-size:310%;
     font-family: 'Share Tech', sans-serif;
+    padding-top: 180px;
+    margin: 0 auto;
 }
 
 .contact{
@@ -20,9 +23,10 @@ main {
 }
 
 .presentation{
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 15%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    width: 50%;
 }
 
 body {
