@@ -1,8 +1,11 @@
+body {
+  margin: 0;
+}
+
 main {
   color: #ffffff;
   font-size: 175%;
 }
-
 
 #banner {
   background-image: url(fond2.jpg);
@@ -15,8 +18,7 @@ main {
   justify-content: center;
   font-size: 310%;
   font-family: "Share Tech", sans-serif;
-  }
-
+}
 
 
 
@@ -43,10 +45,6 @@ main {
     text-align: center;
     width: 50%;
 
-}
-
-body {
-  margin: 0;
 }
 
 .container {
@@ -118,8 +116,9 @@ button {
 
 #contact {
   background-color: #1c364a;
-
-  padding: 1rem;
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 #contact h2 {
@@ -133,8 +132,9 @@ button {
 
 #contact_form {
   display: table;
-  margin: 0 auto;
   color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #contact_form .center {
@@ -149,9 +149,8 @@ button {
 }
 
 #contact_form .text {
-  vertical-align: top;
   display: table-cell;
-  width: 40rem;
+  width: 75%;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
 }
@@ -162,7 +161,7 @@ button {
 
 #contact_form input[type="submit"] {
   margin: 1rem auto;
-  width: 100%;
+  width: 75%;
   height: 3rem;
   border: 3px solid white;
   border-radius: 5px;
