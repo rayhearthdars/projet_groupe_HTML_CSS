@@ -1,4 +1,3 @@
-
 main {
     color: #ffffff;
     font-size:175%;
@@ -156,4 +155,33 @@ body {
     height: 3rem;
     border: 3px solid white;
     border-radius: 5px;
+}
+
+.nav_links li
+{
+	list-style:none;
+	display:inline;
+	padding: 2vh;
+	height:10vh;
+	text-align:center;
+	background-color: #4989bb;
+	filter: brightness(125%);
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vh 7.5%;
+	background-color: #30638a;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #30638a;
+	padding: 1vh 7.5%;
 }
