@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     background: linear-gradient(1deg, #1c364a, rgb(116, 116, 185));
     transition: .2s linear;
  
@@ -58,9 +58,9 @@ body {
     
     transition:
       border-top-left-radius var(--dur) var(--delay) ease-out,
-      border-top-right-radius var(--dur)  ease-out,
-      border-bottom-right-radius var(--dur)  ease-out,
-      border-bottom-left-radius var(--dur)  ease-out,
+      border-top-right-radius var(--dur)  var(--delay) ease-out,
+      border-bottom-right-radius var(--dur)  var(--delay) ease-out,
+      border-bottom-left-radius var(--dur)  var(--delay) ease-out,
       box-shadow var(--dur) ease-out,
       transform var(--dur) ease-out,
       background var(--dur) steps(4, jump-end);
