@@ -9,13 +9,6 @@ main {
   background-size: 100%;
 }
 
-.intro {
-  display: flex;
-  justify-content: center;
-  font-size: 310%;
-  font-family: "Share Tech", sans-serif;
-
-
 
 .intro{
     display:flex;
@@ -222,3 +215,4 @@ footer
 	align-items: center;
 	background-color: #30638a;
 	padding: 1vh 7.5%;
+}
