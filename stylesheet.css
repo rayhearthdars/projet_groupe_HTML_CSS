@@ -158,15 +158,6 @@ button {
   border-radius: 5px;
 }
 
-.nav_links li {
-  list-style: none;
-  display: inline;
-  padding: 2vh;
-  height: 10vh;
-  text-align: center;
-  background-color: #4989bb;
-  filter: brightness(125%);
-}
 
  #contact_form input[type="submit"] {
     margin: 1rem auto;
@@ -180,10 +171,20 @@ button {
 {
 	list-style:none;
 	display:inline;
+	font-size:120%;
+    font-family: 'Share Tech', sans-serif;
 	padding: 2vh;
 	height:10vh;
 	text-align:center;
 	background-color: white;
+	border-radius: 4px;
+	letter-spacing: 1px;
+}
+
+header h1{
+	font-family: 'Share Tech', sans-serif;
+	letter-spacing: 8px;
+	font-size: 250%;
 }
 
 nav a{
@@ -206,6 +207,8 @@ header
 	align-items: center;
 	padding: 1vh 7.5%;
 	background-color: #30638a;
+	position: sticky;
+	top: 0%;
 }
 
 footer
