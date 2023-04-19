@@ -229,3 +229,10 @@ footer
 	background-color: #30638a;
 	padding: 1vh 7.5%;
 }
+
+@media all and (max-width: 1024px) {
+  .nav_links{
+    display: none;
+    position: static;
+  }
+}
