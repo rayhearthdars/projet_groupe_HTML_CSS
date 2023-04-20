@@ -13,11 +13,6 @@ main {
   justify-content: center;
   font-size: 310%;
   font-family: "Share Tech", sans-serif;
-
-  display: flex;
-  justify-content: center;
-  font-size: 310%;
-  font-family: "Share Tech", sans-serif;
   padding-top: 180px;
   margin: 0 auto;
 }
