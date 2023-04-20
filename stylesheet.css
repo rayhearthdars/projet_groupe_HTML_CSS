@@ -22,6 +22,11 @@ main {
   margin: 0 auto;
 }
 
+.cards > h2 {
+  text-align: center;
+  background-color: #30638a;
+}
+
 .presentation {
   margin: 0 auto;
   padding: 10%;
@@ -240,4 +245,4 @@ footer {
     display: block;
     margin: 0.4em auto;
   }
-}
+
