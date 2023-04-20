@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 main {
   color: #ffffff;
   font-size: 175%;
@@ -8,13 +12,18 @@ main {
   background-size: 100%;
 }
 
-.intro {
-  display: flex;
-  justify-content: center;
-  font-size: 310%;
-  font-family: "Share Tech", sans-serif;
-  padding-top: 180px;
-  margin: 0 auto;
+
+
+
+
+.intro{
+    display:flex;
+    justify-content: center;
+    font-size:310%;
+    font-family: 'Share Tech', sans-serif;
+    padding-top: 180px;
+    margin: 0 auto;
+
 }
 
 .contact {
@@ -27,10 +36,6 @@ main {
   padding: 5%;
   text-align: center;
   width: 50%;
-}
-
-body {
-  margin: 0;
 }
 
 .container {
@@ -102,8 +107,9 @@ button {
 
 #contact {
   background-color: #1c364a;
-
-  padding: 1rem;
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 #contact h2 {
@@ -117,8 +123,9 @@ button {
 
 #contact_form {
   display: table;
-  margin: 0 auto;
   color: white;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #contact_form .center {
@@ -133,9 +140,8 @@ button {
 }
 
 #contact_form .text {
-  vertical-align: top;
   display: table-cell;
-  width: 40rem;
+  width: 75%;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
 }
@@ -146,34 +152,77 @@ button {
 
 #contact_form input[type="submit"] {
   margin: 1rem auto;
-  width: 100%;
+  width: 75%;
   height: 3rem;
   border: 3px solid white;
   border-radius: 5px;
 }
 
-.nav_links li {
-  list-style: none;
-  display: inline;
-  padding: 2vh;
-  height: 10vh;
-  text-align: center;
-  background-color: #4989bb;
-  filter: brightness(125%);
+
+ #contact_form input[type="submit"] {
+    margin: 1rem auto;
+    width: 100%;
+    height: 3rem;
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vh 7.5%;
-  background-color: #30638a;
+.nav_links li
+{
+	list-style:none;
+	display:inline;
+	font-size:120%;
+    font-family: 'Share Tech', sans-serif;
+	padding: 2vh;
+	height:10vh;
+	text-align:center;
+	background-color: white;
+	border-radius: 4px;
+	letter-spacing: 1px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #30638a;
-  padding: 1vh 7.5%;
+header h1{
+	font-family: 'Share Tech', sans-serif;
+	letter-spacing: 8px;
+	font-size: 250%;
+}
+
+nav a{
+	text-decoration: none;
+	color: #1c364a;
+}
+
+nav a:hover{
+	filter: brightness(200%);
+}
+
+a:visited {
+	color: purple;
+  }
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vh 7.5%;
+	background-color: #30638a;
+	position: sticky;
+	top: 0%;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #30638a;
+	padding: 1vh 7.5%;
+}
+
+@media all and (max-width: 780px) {
+  .nav_links{
+    display: none;
+    position: static;
+  }
 }
