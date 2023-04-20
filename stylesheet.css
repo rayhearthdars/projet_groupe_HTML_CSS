@@ -22,9 +22,15 @@ main {
   margin: 0 auto;
 }
 
-.cards > h2 {
+#cards > h2 {
+  width: 100%;
   text-align: center;
   background-color: #30638a;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Share Tech", sans-serif;
+  text-decoration: underline;
 }
 
 .presentation {
