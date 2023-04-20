@@ -33,12 +33,13 @@ main {
 }
 
 .presentation {
+  font-family: "Share Tech", sans-serif;
   margin: 0 auto;
   padding: 10%;
   text-align: center;
   width: 50%;
   line-height: 2;
-  font-size: 1.2rem;
+  font-size: 200%;
 }
 
 .container {
@@ -239,6 +240,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   }
+   .presentation{
+    font-size: 125% ;
+   }
   }
   button {
     display: block;
@@ -248,7 +253,7 @@ footer {
     display: block;
     margin: 0.4em auto;
   }
-
+  
 @media all and (max-width: 480px) {
   nav {
     display: none;
