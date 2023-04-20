@@ -13,12 +13,6 @@ main {
 }
 
 
-.intro {
-  display: flex;
-  justify-content: center;
-  font-size: 310%;
-  font-family: "Share Tech", sans-serif;
-}
 
 
 
@@ -37,14 +31,11 @@ main {
   font-family: "Share Tech", sans-serif;
 }
 
-
-
-.presentation{
-    margin: 0 auto;
-    padding: 5%;
-    text-align: center;
-    width: 50%;
-
+.presentation {
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+  width: 50%;
 }
 
 .container {
