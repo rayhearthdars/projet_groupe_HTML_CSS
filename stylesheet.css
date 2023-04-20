@@ -223,21 +223,20 @@ footer {
   background-color: #30638a;
   padding: 1vh 7.5%;
 }
-  .nav_links {
-    display: none;
-    position: static;
-  }
-  header {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  button {
-    display: block;
-    margin: auto;
-  }
-  .button-effect {
-    display: block;
-    margin: 0.4em auto;
-  }
+.nav_links {
+  display: none;
+  position: static;
+}
+header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: block;
+  margin: auto;
+}
+.button-effect {
+  display: block;
+  margin: 0.4em auto;
 }
