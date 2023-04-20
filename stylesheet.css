@@ -231,3 +231,9 @@ footer
     align-items: center;
   }
 }
+
+@media all and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+}
