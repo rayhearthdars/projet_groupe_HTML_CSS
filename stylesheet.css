@@ -236,9 +236,6 @@ footer {
 }
 
 @media all and (max-width: 780px) {
-  .nav_links {
-    display: none;
-  }
   header {
     flex-direction: column;
     justify-content: center;
@@ -253,3 +250,8 @@ footer {
     margin: 0.4em auto;
   }
 
+@media all and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+}
