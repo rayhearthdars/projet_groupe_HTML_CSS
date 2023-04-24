@@ -253,10 +253,9 @@ footer {
     display: block;
     margin: 0.4em auto;
   }
-
+}
   @media all and (max-width: 480px) {
     nav {
       display: none;
     }
-  }
 }
