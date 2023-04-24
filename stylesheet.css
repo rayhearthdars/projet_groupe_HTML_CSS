@@ -23,6 +23,7 @@ main {
 }
 
 #cards > h2 {
+  width: 100%;
   text-align: center;
   background-color: #30638a;
   margin: 0;
@@ -33,13 +34,12 @@ main {
 }
 
 .presentation {
-  font-family: "Share Tech", sans-serif;
   margin: 0 auto;
   padding: 10%;
   text-align: center;
   width: 50%;
   line-height: 2;
-  font-size: 200%;
+  font-size: 1.2rem;
 }
 
 .container {
@@ -57,7 +57,7 @@ main {
   justify-content: center;
   margin: 50px;
   width: 25%;
-  height: 25%;
+  height: 50%;
   box-shadow: 0 5px 10px black;
   background: white;
   border-radius: 5px;
@@ -72,23 +72,27 @@ img {
 }
 
 .button-container {
-  width: 100%;
-
-  margin: 10px;
   display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
   align-items: center;
   justify-content: center;
+  white-space: normal;
+  width: 70%;
 }
 
 button {
   background: white;
   border: solid 2px black;
-  font-size: 1rem;
+  margin-bottom: 2%;
   font-family: "Share Tech", sans-serif;
+
+  width: 100%;
 }
 
 .button-effect {
-  font-size: 2rem;
+  flex-wrap: wrap;
+  font-size: 150%;
   background: #1c364a;
   color: hsl(190deg, 10%, 95%);
   box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
@@ -240,10 +244,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   }
-   .presentation{
-    font-size: 125% ;
-   }
   }
   button {
     display: block;
@@ -253,9 +253,10 @@ footer {
     display: block;
     margin: 0.4em auto;
   }
-  
-@media all and (max-width: 480px) {
-  nav {
-    display: none;
+
+  @media all and (max-width: 480px) {
+    nav {
+      display: none;
+    }
   }
 }
