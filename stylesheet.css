@@ -1,250 +1,212 @@
-body {
-  margin: 0;
-}
+@media all and (min-width: 0) {
+  body {
+    margin: 0;
+  }
+  
+  main {
+    color: #ffffff;
+  }
+  
+  #banner {
+    background-image: url(fond2.jpg);
+    background-size: 100%;
+    background-size: cover;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: "Share Tech", sans-serif;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+  }
+  
+  #cards > h2 {
+    text-align: center;
+    background-color: #30638a;
+    margin: 0;
+    padding: 20px;
+    font-size: 2rem;
+    font-family: "Share Tech", sans-serif;
+    text-decoration: underline;
+  }
+  
+  .presentation {
+    font-family: "Share Tech", sans-serif;
+    margin: 0 auto;
+    padding: 10%;
+    text-align: center;
+    width: 75%;
+    line-height: 2;
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(1deg, #1c364a, #30638a);
+    transition: 0.2s linear;
+  }
+  
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    width: 25%;
+    height: 50%;
+    box-shadow: 0 5px 10px black;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  img {
+    width: 90%;
+    max-width: 300px;
+    max-height: 180px;
+    padding: 10px 10px;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: center;
+    white-space: normal;
+    width: 70%;
+  }
+  
+  button {
+    background: white;
+    border: solid 2px black;
+    margin-bottom: 2%;
+    font-family: "Share Tech", sans-serif;
+  
+    width: 100%;
+  }
+  
+  .button-effect {
+    flex-wrap: wrap;
+    font-size: 150%;
+    background: #1c364a;
+    color: hsl(190deg, 10%, 95%);
+    box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
+  
+    --dur: 0.1s;
+    --delay: 0.1s;
+    --radius: 16px;
+  
+    transition: border-top-left-radius var(--dur) var(--delay) ease-out,
+      border-top-right-radius var(--dur) var(--delay) ease-out,
+      border-bottom-right-radius var(--dur) var(--delay) ease-out,
+      border-bottom-left-radius var(--dur) var(--delay) ease-out,
+      box-shadow var(--dur) ease-out, transform var(--dur) ease-out;
+  }
+  
+  .button-effect:hover,
+  .button-effect:focus {
+    box-shadow: 0 4px 8px black;
+    background: #30638a;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
+  
+  #contact {
+    background-color: #1c364a;
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 25px;
+  }
+  
+  #contact h2 {
+    font-family: "Share Tech", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 2rem;
+  }
+  
+  #contact_form {
+    display: table;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  #contact_form .center {
+    display: table-row;
+  }
+  
+  #contact_form label {
+    display: block;
+    font-family: "Share Tech", sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  #contact_form .text {
+    display: table-cell;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 5rem;
+  }
+  
+  #contact_form .textHeight {
+    height: 2rem;
+  }
+  
+  #contact_form input[type="submit"] {
+    margin: 1rem auto;
+    width: 50%;
+    height: 2rem;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Share Tech", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.8s;
+    box-shadow: 1px 10px rgb(198, 197, 197);
+  }
+  
+  #contact_form input[type="submit"]:hover {
+    background-color: #30638a;
+    color: #ffffff;
+    border: 3px solid #30638a;
+    transform: translateY(5px);
+    box-shadow: 0px 5px rgb(198, 197, 197);
+  }
+  
+  nav {
+    display: none;
+  }
 
-main {
-  color: #ffffff;
-}
-
-#banner {
-  background-image: url(fond2.jpg);
-  background-size: 100%;
-  background-size: cover;
-}
-
-.intro {
-  display: flex;
-  justify-content: center;
-  font-size: 4rem;
-  font-family: "Share Tech", sans-serif;
-  padding-top: 100px;
-  padding-bottom: 25px;
-  margin: 0 auto;
-}
-
-#cards > h2 {
-  width: 100%;
-  text-align: center;
-  background-color: #30638a;
-  margin: 0;
-  padding: 20px;
-  font-size: 2rem;
-  font-family: "Share Tech", sans-serif;
-  text-decoration: underline;
-}
-
-.presentation {
-  margin: 0 auto;
-  padding: 10%;
-  text-align: center;
-  width: 50%;
-  line-height: 2;
-  font-size: 1.2rem;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-  background: linear-gradient(1deg, #1c364a, #30638a);
-  transition: 0.2s linear;
-}
-
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 50px;
-  width: 25%;
-  height: 50%;
-  box-shadow: 0 5px 10px black;
-  background: white;
-  border-radius: 5px;
-}
-
-img {
-  width: 90%;
-  max-width: 300px;
-  max-height: 180px;
-  padding: 10px 10px;
-  align-items: center;
-}
-
-.button-container {
-  display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
-  align-items: center;
-  justify-content: center;
-  white-space: normal;
-  width: 70%;
-}
-
-button {
-  background: white;
-  border: solid 2px black;
-  margin-bottom: 2%;
-  font-family: "Share Tech", sans-serif;
-
-  width: 100%;
-}
-
-.button-effect {
-  flex-wrap: wrap;
-  font-size: 150%;
-  background: #1c364a;
-  color: hsl(190deg, 10%, 95%);
-  box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
-
-  --dur: 0.1s;
-  --delay: 0.1s;
-  --radius: 16px;
-
-  transition: border-top-left-radius var(--dur) var(--delay) ease-out,
-    border-top-right-radius var(--dur) var(--delay) ease-out,
-    border-bottom-right-radius var(--dur) var(--delay) ease-out,
-    border-bottom-left-radius var(--dur) var(--delay) ease-out,
-    box-shadow var(--dur) ease-out, transform var(--dur) ease-out;
-}
-
-.button-effect:hover,
-.button-effect:focus {
-  box-shadow: 0 4px 8px black;
-  background: #30638a;
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
-}
-
-#contact {
-  background-color: #1c364a;
-  padding-top: 1rem;
-  margin: 0 auto;
-  width: 100%;
-  padding-bottom: 25px;
-}
-
-#contact h2 {
-  font-family: "Share Tech", sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 400;
-  color: white;
-  padding-bottom: 2rem;
-}
-
-#contact_form {
-  display: table;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-}
-
-#contact_form .center {
-  display: table-row;
-}
-
-#contact_form label {
-  display: block;
-  font-family: "Share Tech", sans-serif;
-  font-size: 1.2rem;
-}
-
-#contact_form .text {
-  display: table-cell;
-  width: 50%;
-  border: 3px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  height: 5rem;
-}
-
-#contact_form .textHeight {
-  height: 2rem;
-}
-
-#contact_form input[type="submit"] {
-  margin: 1rem auto;
-  width: 50%;
-  height: 2rem;
-  border: 3px solid white;
-  border-radius: 5px;
-  background-color: #ffffff;
-  font-family: "Share Tech", sans-serif;
-  font-size: 1.2rem;
-  cursor: pointer;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.8s;
-  box-shadow: 1px 10px rgb(198, 197, 197);
-}
-
-#contact_form input[type="submit"]:hover {
-  background-color: #30638a;
-  color: #ffffff;
-  border: 3px solid #30638a;
-  transform: translateY(5px);
-  box-shadow: 0px 5px rgb(198, 197, 197);
-}
-
-.nav_links li {
-  list-style: none;
-  display: inline;
-  font-size: 120%;
-  font-family: "Share Tech", sans-serif;
-  padding: 2vh;
-  height: 10vh;
-  text-align: center;
-  background-color: white;
-  border-radius: 4px;
-  letter-spacing: 1px;
-}
-
-header h1 {
-  font-family: "Share Tech", sans-serif;
-  letter-spacing: 8px;
-  font-size: 250%;
-}
-
-nav a {
-  text-decoration: none;
-  color: #1c364a;
-}
-
-nav a:hover {
-  filter: brightness(200%);
-}
-
-a:visited {
-  color: purple;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vh 7.5%;
-  background-color: #30638a;
-  position: sticky;
-  top: 0%;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #30638a;
-  padding: 1vh 7.5%;
-}
-
-@media all and (max-width: 780px) {
+  
   header {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1vh 7.5%;
+    background-color: #30638a;
+    position: sticky;
+    top: 0%;
+
   }
+
   button {
     display: block;
     margin: auto;
@@ -253,9 +215,65 @@ footer {
     display: block;
     margin: 0.4em auto;
   }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #30638a;
+    padding: 1vh 7.5%;
+  }
 }
-  @media all and (max-width: 480px) {
+
+@media all and (max-width: 780px) {
+
+}
+  @media all and (min-width: 768px) {
     nav {
-      display: none;
+      display: block;
     }
+    .nav_links li {
+      list-style: none;
+      display: inline;
+      font-size: 120%;
+      font-family: "Share Tech", sans-serif;
+      padding: 2vh;
+      height: 10vh;
+      text-align: center;
+      background-color: white;
+      border-radius: 4px;
+      letter-spacing: 1px;
+    }
+    
+    header h1 {
+      font-family: "Share Tech", sans-serif;
+      letter-spacing: 8px;
+      font-size: 250%;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #1c364a;
+    }
+    
+    nav a:hover {
+      filter: brightness(200%);
+    }
+    
+    a:visited {
+      color: purple;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+  .presentation {
+    width: 50%;
+    font-size: 1.6rem;
+  }
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
 }
