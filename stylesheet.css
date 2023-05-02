@@ -7,20 +7,56 @@
     color: #ffffff;
   }
 
-  #banner {
-    background-image: url(fond2.jpg);
-    background-size: 100%;
-    background-size: cover;
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 70vh;
+  }
+
+  .banner_img{
+    padding:0;
+    min-width:100%;
+    min-height: 100%;
   }
 
   .intro {
-    display: flex;
-    justify-content: center;
+    top: 0;
+    position: absolute;
     font-size: 4rem;
     font-family: "Share Tech", sans-serif;
-    padding-top: 100px;
-    padding-bottom: 25px;
-    margin: 0 auto;
+  }
+
+  .presentation {
+    position: absolute;
+    font-family: "Share Tech", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .prev_btn {
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    left: 0;
+    border: none;
+    background-color: transparent;
+
+  }
+  .next_btn{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    right: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .fa-solid{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    
   }
 
   #cards > h2 {
@@ -33,15 +69,7 @@
     text-decoration: underline;
   }
 
-  .presentation {
-    font-family: "Share Tech", sans-serif;
-    margin: 0 auto;
-    padding: 10%;
-    text-align: center;
-    width: 75%;
-    line-height: 2;
-    font-size: 1.5rem;
-  }
+  
 
   .container {
     display: flex;
