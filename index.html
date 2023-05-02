@@ -11,6 +11,7 @@
       rel="stylesheet"
     >
     <link rel="stylesheet" href="stylesheet.css" type="text/css" >
+    <script src="https://kit.fontawesome.com/248ca8eece.js" crossorigin="anonymous"></script>
     <title>Kotech</title>
   </head>
   <body>
@@ -25,7 +26,9 @@
       </nav>
     </header>
     <main>
-      <article id="banner">
+
+      <article class="banner">
+        <img class="banner_img" src="./fond2.jpg" id="bg_img">
         <h2 class="intro">Présentation</h2>
         <p class="presentation">
           Kotech est une plateforme numérique qui permet aux internautes
@@ -34,7 +37,11 @@
           sa navigation intuitive. Moderne et futuriste, son image de marque est
           linéaire et a un design pure mais technique.
         </p>
+        <button class="prev_btn" onclick="ChangeSlide(-1)"><i class="fa-solid fa-chevron-left fa-2x"></i></button>
+        <button class="next_btn" onclick="ChangeSlide(1)"><i class="fa-solid fa-chevron-right fa-2x"></i></button>
       </article>
+
+
         <article id="cards">
           <h2>Buy our products</h2>
             <div class="container">
@@ -159,6 +166,7 @@
             ><span>Politique de confidentialité</span>
           </footer>
     </main>
+    <script src="./scripts/carrousel.js"></script>
 
   </body>
 </html>
