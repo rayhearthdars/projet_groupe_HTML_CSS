@@ -12,3 +12,12 @@ function ChangeSlide(sens) {
     document.getElementById("bg_img").src = slide[numero];
 }
 
+document.onkeydown = (e) => {
+    e = e || window.event;
+    if (e.keyCode === 37) {
+      ChangeSlide(-1)
+    } else if (e.keyCode === 39) {
+      ChangeSlide(1)
+    } 
+  };
+
