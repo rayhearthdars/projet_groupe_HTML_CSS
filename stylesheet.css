@@ -1,17 +1,16 @@
-  body {
-    margin: 0;
+body {
+  margin: 0;
   padding: 0;
-  }
+}
 
- header {
-   display: flex;
-   align-items: center;
-   padding: 1vh 4%;
-   background-color: #30638a;
-   position: sticky;
-   justify-content: space-between;
- }
-
+header {
+  display: flex;
+  align-items: center;
+  padding: 1vh 4%;
+  background-color: #30638a;
+  position: sticky;
+  justify-content: space-between;
+}
 
 header h1 {
   font-family: "Share Tech", sans-serif;
@@ -19,44 +18,44 @@ header h1 {
   font-size: 250%;
 }
 
- nav .nav-link {
-   text-decoration: none;
-   color: #1c364a;
- }
+nav .nav-link {
+  text-decoration: none;
+  color: #1c364a;
+}
 
- nav .nav-link:hover {
-   filter: brightness(200%);
- }
+nav .nav-link:hover {
+  filter: brightness(200%);
+}
 
- li {
-    list-style: none;
-    display: inline;
-    font-size: 120%;
-    font-family: "Share Tech", sans-serif;
-    padding: 2vh;
-    text-align: center;
-    background-color: white;
-    border-radius: 4px;
-    letter-spacing: 1px;
-  }
+li {
+  list-style: none;
+  display: inline;
+  font-size: 120%;
+  font-family: "Share Tech", sans-serif;
+  padding: 2vh;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
 
-  .nav{
+.nav {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 60px;
 }
-.nav-link{
+.nav-link {
   transition: 0.3s ease-out;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: dodgerblue;
 }
 
@@ -75,276 +74,265 @@ header h1 {
   background-color: white;
 }
 
-  main {
-    color: #ffffff;
-  }
+main {
+  color: #ffffff;
+}
 
-  .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 70vh;
-    z-index: -1;
-  }
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 70vh;
+  z-index: -1;
+}
 
-  .banner_img{
-    padding:0;
-    min-width:100%;
-    min-height: 100%;
-  }
+.banner_img {
+  padding: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
-  .intro {
-    top: 0;
-    position: absolute;
-    font-size: 4rem;
-    font-family: "Share Tech", sans-serif;
-  }
+.intro {
+  top: 0;
+  position: absolute;
+  font-size: 4rem;
+  font-family: "Share Tech", sans-serif;
+}
 
-  .presentation {
-    position: absolute;
-    font-family: "Share Tech", sans-serif;
-    font-size: 1.5rem;
-  }
+.presentation {
+  position: absolute;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.5rem;
+}
 
-  .prev_btn {
-    height: 4rem;
-    width: 4rem;
-    position: absolute;
-    left: 0;
-    border: none;
-    background-color: transparent;
+.prev_btn {
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  left: 0;
+  border: none;
+  background-color: transparent;
+}
+.next_btn {
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: transparent;
+}
 
-  }
-  .next_btn{
-    height: 4rem;
-    width: 4rem;
-    position: absolute;
-    right: 0;
-    border: none;
-    background-color: transparent;
-  }
+.fa-solid {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
 
-  .fa-solid{
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    
-  }
+#cards > h2 {
+  text-align: center;
+  background-color: #30638a;
+  margin: 0;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Share Tech", sans-serif;
+  text-decoration: underline;
+}
 
-  #cards > h2 {
-    text-align: center;
-    background-color: #30638a;
-    margin: 0;
-    padding: 20px;
-    font-size: 2rem;
-    font-family: "Share Tech", sans-serif;
-    text-decoration: underline;
-  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(1deg, #1c364a, #30638a);
+  transition: 0.2s linear;
+}
 
-  
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+  width: 25%;
+  height: 50%;
+  box-shadow: 0 5px 10px black;
+  background: white;
+  border-radius: 5px;
+}
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    background: linear-gradient(1deg, #1c364a, #30638a);
-    transition: 0.2s linear;
-  }
+img {
+  width: 251;
+  height: 200;
+  max-width: 300px;
+  max-height: 200px;
+  padding: 10px 10px;
+  align-items: center;
+}
 
-  .box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px;
-    width: 25%;
-    height: 50%;
-    box-shadow: 0 5px 10px black;
-    background: white;
-    border-radius: 5px;
-  }
+.button-container {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  justify-content: center;
+  white-space: normal;
+  width: 70%;
+}
 
-  img {
-    width: 251;
-    height: 200;
-    max-width: 300px;
-    max-height: 200px;
-    padding: 10px 10px;
-    align-items: center;
-  }
+button {
+  background: white;
+  border: solid 2px black;
+  margin-bottom: 2%;
+  font-family: "Share Tech", sans-serif;
 
-  .button-container {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-items: center;
-    justify-content: center;
-    white-space: normal;
-    width: 70%;
-  }
+  width: 100%;
+}
 
-  button {
-    background: white;
-    border: solid 2px black;
-    margin-bottom: 2%;
-    font-family: "Share Tech", sans-serif;
+.button-effect {
+  flex-wrap: wrap;
+  font-size: 150%;
+  background: #1c364a;
+  color: hsl(190deg, 10%, 95%);
+  box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
 
-    width: 100%;
-  }
+  --dur: 0.1s;
+  --delay: 0.1s;
+  --radius: 16px;
 
-  .button-effect {
-    flex-wrap: wrap;
-    font-size: 150%;
-    background: #1c364a;
-    color: hsl(190deg, 10%, 95%);
-    box-shadow: 0 0px 0px hsla(190deg, 15%, 5%, 0.2);
+  transition: border-top-left-radius var(--dur) var(--delay) ease-out,
+    border-top-right-radius var(--dur) var(--delay) ease-out,
+    border-bottom-right-radius var(--dur) var(--delay) ease-out,
+    border-bottom-left-radius var(--dur) var(--delay) ease-out,
+    box-shadow var(--dur) ease-out, transform var(--dur) ease-out;
+}
 
-    --dur: 0.1s;
-    --delay: 0.1s;
-    --radius: 16px;
+.button-effect:hover,
+.button-effect:focus {
+  box-shadow: 0 4px 8px black;
+  background: #30638a;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+#contact {
+  background-color: #1c364a;
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
 
-    transition: border-top-left-radius var(--dur) var(--delay) ease-out,
-      border-top-right-radius var(--dur) var(--delay) ease-out,
-      border-bottom-right-radius var(--dur) var(--delay) ease-out,
-      border-bottom-left-radius var(--dur) var(--delay) ease-out,
-      box-shadow var(--dur) ease-out, transform var(--dur) ease-out;
-  }
+#contact h2 {
+  font-family: "Share Tech", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 2rem;
+}
 
-  .button-effect:hover,
-  .button-effect:focus {
-    box-shadow: 0 4px 8px black;
-    background: #30638a;
-    border-top-left-radius: var(--radius);
-    border-top-right-radius: var(--radius);
-    border-bottom-left-radius: var(--radius);
-    border-bottom-right-radius: var(--radius);
-  }
-  #contact {
-    background-color: #1c364a;
-    padding-top: 1rem;
-    margin: 0 auto;
-    width: 100%;
-    padding-bottom: 25px;
-  }
+#contact_form {
+  display: table;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
 
-  #contact h2 {
-    font-family: "Share Tech", sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    font-weight: 400;
-    color: white;
-    padding-bottom: 2rem;
-  }
+#contact_form .center {
+  display: table-row;
+}
 
-  #contact_form {
-    display: table;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-  }
+#contact_form label {
+  display: block;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.2rem;
+}
 
-  #contact_form .center {
-    display: table-row;
-  }
+#contact_form .text {
+  display: table-cell;
+  width: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  height: 5rem;
+}
 
-  #contact_form label {
-    display: block;
-    font-family: "Share Tech", sans-serif;
-    font-size: 1.2rem;
-  }
+#contact_form .textHeight {
+  height: 2rem;
+}
 
-  #contact_form .text {
-    display: table-cell;
-    width: 50%;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    height: 5rem;
-  }
+#contact_form input[type="submit"] {
+  margin: 1rem auto;
+  width: 50%;
+  height: 2rem;
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: "Share Tech", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.8s;
+  box-shadow: 1px 10px rgb(198, 197, 197);
+}
 
-  #contact_form .textHeight {
-    height: 2rem;
-  }
+#contact_form input[type="submit"]:hover {
+  background-color: #30638a;
+  color: #ffffff;
+  border: 3px solid #30638a;
+  transform: translateY(5px);
+  box-shadow: 0px 5px rgb(198, 197, 197);
+}
 
-  #contact_form input[type="submit"] {
-    margin: 1rem auto;
-    width: 50%;
-    height: 2rem;
-    border: 3px solid white;
-    border-radius: 5px;
-    background-color: #ffffff;
-    font-family: "Share Tech", sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.8s;
-    box-shadow: 1px 10px rgb(198, 197, 197);
-  }
+button {
+  display: block;
+  margin: auto;
+}
+.button-effect {
+  display: block;
+  margin: 0.4em auto;
+}
 
-  #contact_form input[type="submit"]:hover {
-    background-color: #30638a;
-    color: #ffffff;
-    border: 3px solid #30638a;
-    transform: translateY(5px);
-    box-shadow: 0px 5px rgb(198, 197, 197);
-  }
-
-
- 
-
-  button {
-    display: block;
-    margin: auto;
-  }
-  .button-effect {
-    display: block;
-    margin: 0.4em auto;
-  }
-
-  footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #30638a;
-    padding: 1vh 7.5%;
-  }
- 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #30638a;
+  padding: 1vh 7.5%;
+}
 
 .nav-link:visited {
-    color: purple;
-  }
+  color: purple;
+}
 
-  .box {
-    width: 29%;
-    height: 50%;
-  }
+.box {
+  width: 29%;
+  height: 50%;
+}
 
-  img {
-    width: 180px;
-    height: 180px;
+img {
+  width: 180px;
+  height: 180px;
 
-    padding: 10px 10px;
-  }
+  padding: 10px 10px;
+}
 
-  .button-container {
-    width: 70%;
-  }
+.button-container {
+  width: 70%;
+}
 
-  button {
-    width: 100%;
-    height: 70%;
-  }
+button {
+  width: 100%;
+  height: 70%;
+}
 
-  .button-effect {
-    font-size: 150%;
-  }
+.button-effect {
+  font-size: 150%;
+}
 
-
-@media(max-width:1024px) {
-
-
+@media (max-width: 1024px) {
   .hamburger {
     display: block;
   }
@@ -379,28 +367,38 @@ header h1 {
     margin: 16px 0;
   }
 
-.nav-menu.active {
+  .nav-menu.active {
     left: 0;
   }
 
-  .banner{
-    
-  }
-  .intro{
-  }
-  .presentation{
+  .presentation {
     display: flex;
-    min-width: 80%;
+    min-width: 70%;
     bottom: 20%;
   }
-  .box-img{
+  .box-img {
     max-width: 100%;
+  }
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #cards {
+    width: 100vw;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .box{
+    min-width: 70%;
   }
 }
 
-
 @media all and (max-width: 780px) {
-
   .box {
     width: 29%;
     height: 50%;
@@ -457,7 +455,6 @@ header h1 {
   }
 }
 
-
 .presentation {
   width: 50%;
   font-size: 1.6rem;
@@ -480,6 +477,6 @@ img {
   flex-wrap: wrap;
   font-size: 150%;
 }
-#kotech{
+#kotech {
   color: white;
 }
