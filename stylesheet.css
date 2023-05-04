@@ -382,10 +382,24 @@ header h1 {
 .nav-menu.active {
     left: 0;
   }
+
+  .banner{
+    
+  }
+  .intro{
+  }
+  .presentation{
+    display: flex;
+    min-width: 80%;
+    bottom: 20%;
+  }
+  .box-img{
+    max-width: 100%;
+  }
 }
 
 
-  @media all and (max-width: 780px) {
+@media all and (max-width: 780px) {
 
   .box {
     width: 29%;
@@ -466,4 +480,6 @@ img {
   flex-wrap: wrap;
   font-size: 150%;
 }
-
+#kotech{
+  color: white;
+}
