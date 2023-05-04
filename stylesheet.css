@@ -85,6 +85,7 @@ header h1 {
     justify-content: center;
     position: relative;
     height: 70vh;
+    z-index: -1;
   }
 
   .banner_img{
@@ -371,6 +372,7 @@ header h1 {
     text-align: center;
     transition: 0.3s;
     z-index: 999;
+    padding: 0;
   }
 
   li {
