@@ -84,7 +84,7 @@ main {
   justify-content: center;
   position: relative;
   height: 70vh;
-  z-index: -1;
+  z-index: 1;
 }
 
 .banner_img {

@@ -4,8 +4,13 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-  if (document.getElementById("test").classList.contains("active")) {
-    document.getElementById("baner").style.zIndex = "-1";
+  if (document.getElementById("nav-menu").classList.contains("active")) {
+    console.log("active");
+    document.getElementById("banner").style.zIndex = "-1";
+  }
+  else {
+    console.log("unactive");
+    document.getElementById("banner").style.zIndex = "1"
   }
 });
 
