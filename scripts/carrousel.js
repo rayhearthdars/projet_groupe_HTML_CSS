@@ -7,8 +7,9 @@ function ChangeSlide(sens) {
   numero = numero + sens;
   if (numero < 0) numero = slide.length - 1;
   if (numero > slide.length - 1) numero = 0;
-  document.getElementById("bg_img").src = slide[numero];
-}
+  console.log("test");
+  document.getElementById("header_img").src = slide[numero];
+};
 
 document.onkeydown = (e) => {
   e = e || window.event;
@@ -18,3 +19,5 @@ document.onkeydown = (e) => {
     ChangeSlide(1);
   }
 };
+
+

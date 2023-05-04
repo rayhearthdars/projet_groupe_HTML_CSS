@@ -113,14 +113,18 @@ main {
   left: 0;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  z-index: 1000;
 }
 .next_btn {
+  z-index: 1000;
   height: 4rem;
   width: 4rem;
   position: absolute;
   right: 0;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .fa-solid {
@@ -479,4 +483,8 @@ img {
 }
 #kotech {
   color: white;
+}
+
+#logo_link{
+  text-decoration: none;
 }
