@@ -1,7 +1,0 @@
-commandes git:
-
-git add [nom du fichier]
-
-git commit -m ["message"]
-
-git push origin/[nom de la branche]

@@ -1,1 +1,1 @@
-# projet_groupe_HTML_CSS
+2 ème étape du projet de groupe
