@@ -1,4 +1,4 @@
-const pizzas = [
+const products = [
   {
     name: "HeroBook Pro",
     brand: "Chuwi",
@@ -42,15 +42,15 @@ const params = new URLSearchParams(window.location.search);
 const currPizzaId = params.get("pizzaId");
 
 const pizzaTitle = document.createElement("h2");
-pizzaTitle.textContent = pizzas[currPizzaId].name;
+pizzaTitle.textContent = products[currPizzaId].name;
 // document.body.appendChild(pizzaTitle);
 
 const pizzaDescription = document.createElement("p");
-pizzaDescription.textContent = pizzas[currPizzaId].description;
+pizzaDescription.textContent = products[currPizzaId].description;
 // document.body.appendChild(pizzaDescription);
 
 const img = document.createElement("img");
-img.src = pizzas[currPizzaId].image;
+img.src = products[currPizzaId].image;
 document.body.appendChild(img);
 document.body.appendChild(pizzaTitle);
 document.body.appendChild(pizzaDescription);
