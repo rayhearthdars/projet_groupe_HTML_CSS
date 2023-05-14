@@ -39,7 +39,7 @@ const products = [
 
 const params = new URLSearchParams(window.location.search);
 /* console.log("params", params.get("pizzaId")); */
-const currPizzaId = params.get("pizzaId");
+const currPizzaId = params.get("productId");
 
 const pizzaTitle = document.createElement("h2");
 pizzaTitle.textContent = products[currPizzaId].name;
