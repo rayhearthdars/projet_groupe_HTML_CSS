@@ -38,7 +38,7 @@ const pizzas = [
 ];
 
 const params = new URLSearchParams(window.location.search);
-console.log("params", params.get("pizzaId"));
+/* console.log("params", params.get("pizzaId")); */
 const currPizzaId = params.get("pizzaId");
 
 const pizzaTitle = document.createElement("h2");

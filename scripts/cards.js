@@ -1,4 +1,5 @@
-const cards = document.querySelectorAll(".block_images .card");
+const cards = document.querySelectorAll(".container .box");
+
 
 cards.forEach((card, idx) => {
   const btn = card.querySelector("button");
